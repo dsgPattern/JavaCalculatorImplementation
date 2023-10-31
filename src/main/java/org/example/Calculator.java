@@ -13,6 +13,9 @@ public class Calculator {
                 _total = newTotal;
             }
             case Substract -> {
+                int newTotal = _total - operand;
+                System.out.println(_total +" - "+operand + " = "+newTotal);
+                _total = newTotal;
             }
             case Multiply -> {
             }
